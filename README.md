@@ -27,8 +27,8 @@ Load balancing ensures that the application will be highly Reliable, in addition
 - Advantage of a jupbox is that it only allows one machine/IP address to access the webservers to make any changes.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the fies and system metrics.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+- File beat watches for changes in the system to files
+- Metric beat watches the server for activity of uptim and down time and usage.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
